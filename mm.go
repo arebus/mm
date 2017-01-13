@@ -13,7 +13,7 @@ func main() {
 	fmt.Println(dbConfig.User)
 	fmt.Println(dbConfig.Port)
 	
-	db, err := sql.Open("mysql", dbConfig.User+":"dbConfig.Password+"@"+dbConfig.Host+"/")
+	db, err := sql.Open("mysql", dbConfig.User+":"+dbConfig.Password+"@"+dbConfig.Host+"/")
 	if err != nil {
 		log.Fatal("DB connection error:", err)
 	}
