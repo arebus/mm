@@ -1,8 +1,8 @@
 {
 	"Database": {
 		"name": "testDB",
-		"port": 3306,
-		"user": "testuser",
-		"password": "testpassword"
+		"addr": "127.0.0.1:3306",
+		"user": "root",
+		"password": "msandbox"
 	}
 }
